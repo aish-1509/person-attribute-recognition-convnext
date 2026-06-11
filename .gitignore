@@ -1,0 +1,27 @@
+# Local environments and caches
+.DS_Store
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+.dist/
+
+# Notebook and editor state
+.ipynb_checkpoints/
+.idea/
+.vscode/
+
+# Data and model artifacts not stored in normal Git history
+models/*.pth
+models/*.pt
+models/*.ckpt
+data/
+dataset/
+datasets/
+
+# Superseded local source artifacts
+archive/

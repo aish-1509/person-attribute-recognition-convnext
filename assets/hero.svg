@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="500" viewBox="0 0 1400 500" role="img" aria-labelledby="title desc">
+  <title id="title">Leakage-safe multi-task person attribute recognition</title>
+  <desc id="desc">A visual banner showing one shared visual backbone branching into six attribute prediction heads.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080B18"/>
+      <stop offset="0.52" stop-color="#13152F"/>
+      <stop offset="1" stop-color="#21113D"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="0.5" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#F472B6"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M 42 0 L 0 0 0 42" fill="none" stroke="#FFFFFF" stroke-opacity="0.035"/>
+    </pattern>
+  </defs>
+
+  <rect width="1400" height="500" rx="28" fill="url(#bg)"/>
+  <rect width="1400" height="500" rx="28" fill="url(#grid)"/>
+  <circle cx="1180" cy="70" r="220" fill="#7C3AED" opacity="0.18" filter="url(#glow)"/>
+  <circle cx="1080" cy="440" r="180" fill="#06B6D4" opacity="0.12" filter="url(#glow)"/>
+
+  <rect x="72" y="62" width="260" height="38" rx="19" fill="#FFFFFF" fill-opacity="0.07" stroke="#FFFFFF" stroke-opacity="0.12"/>
+  <circle cx="96" cy="81" r="6" fill="#22D3EE"/>
+  <text x="114" y="87" fill="#CBD5E1" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="600" letter-spacing="1.6">COMPUTER VISION</text>
+
+  <text x="72" y="173" fill="#FFFFFF" font-family="Inter,Arial,sans-serif" font-size="61" font-weight="750">Person Attribute</text>
+  <text x="72" y="241" fill="url(#accent)" font-family="Inter,Arial,sans-serif" font-size="61" font-weight="750">Recognition</text>
+  <text x="74" y="292" fill="#A7B0C5" font-family="Inter,Arial,sans-serif" font-size="23">One ConvNeXt backbone. Six prediction heads. Zero identity leakage.</text>
+
+  <g transform="translate(74 344)">
+    <rect width="184" height="82" rx="16" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.1"/>
+    <text x="20" y="34" fill="#94A3B8" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="600">TEST MACRO-F1</text>
+    <text x="20" y="65" fill="#FFFFFF" font-family="Inter,Arial,sans-serif" font-size="29" font-weight="750">0.8308</text>
+  </g>
+  <g transform="translate(274 344)">
+    <rect width="184" height="82" rx="16" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.1"/>
+    <text x="20" y="34" fill="#94A3B8" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="600">HELD-OUT IMAGES</text>
+    <text x="20" y="65" fill="#FFFFFF" font-family="Inter,Arial,sans-serif" font-size="29" font-weight="750">7,021</text>
+  </g>
+  <g transform="translate(474 344)">
+    <rect width="184" height="82" rx="16" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.1"/>
+    <text x="20" y="34" fill="#94A3B8" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="600">IDENTITY OVERLAP</text>
+    <text x="20" y="65" fill="#FFFFFF" font-family="Inter,Arial,sans-serif" font-size="29" font-weight="750">0</text>
+  </g>
+
+  <g transform="translate(800 93)">
+    <rect x="0" y="93" width="204" height="124" rx="24" fill="#12162C" stroke="#8B5CF6" stroke-width="2"/>
+    <text x="102" y="143" text-anchor="middle" fill="#C4B5FD" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="650">CONVNEXT-SMALL</text>
+    <text x="102" y="171" text-anchor="middle" fill="#7DD3FC" font-family="Inter,Arial,sans-serif" font-size="15">shared backbone</text>
+    <text x="102" y="197" text-anchor="middle" fill="#64748B" font-family="Inter,Arial,sans-serif" font-size="13">768-d representation</text>
+
+    <path d="M204 155 H246" stroke="url(#accent)" stroke-width="3"/>
+    <path d="M246 32 V278" stroke="#8B5CF6" stroke-width="2" stroke-opacity="0.72"/>
+
+    <g fill="#171A35" stroke-width="1.5">
+      <rect x="280" y="0" width="185" height="52" rx="14" stroke="#22D3EE"/>
+      <rect x="280" y="62" width="185" height="52" rx="14" stroke="#60A5FA"/>
+      <rect x="280" y="124" width="185" height="52" rx="14" stroke="#8B5CF6"/>
+      <rect x="280" y="186" width="185" height="52" rx="14" stroke="#A78BFA"/>
+      <rect x="280" y="248" width="185" height="52" rx="14" stroke="#E879F9"/>
+      <rect x="280" y="310" width="185" height="52" rx="14" stroke="#F472B6"/>
+    </g>
+    <g stroke="#8B5CF6" stroke-width="2" stroke-opacity="0.72">
+      <path d="M246 26 H280"/>
+      <path d="M246 88 H280"/>
+      <path d="M246 150 H280"/>
+      <path d="M246 212 H280"/>
+      <path d="M246 274 H280"/>
+      <path d="M246 336 H280"/>
+      <path d="M246 278 V336"/>
+    </g>
+    <g fill="#E2E8F0" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="600">
+      <text x="304" y="33">Age</text>
+      <text x="304" y="95">Headgear</text>
+      <text x="304" y="157">Gender</text>
+      <text x="304" y="219">Glasses</text>
+      <text x="304" y="281">Upper color</text>
+      <text x="304" y="343">Lower color</text>
+    </g>
+  </g>
+</svg>
