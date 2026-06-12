@@ -1,3 +1,6 @@
+> **Portfolio classification: independently built computer-vision system.** The repository documents the complete path from identity-safe data splitting and multi-task training to held-out evaluation, failure analysis, and reproducible checks.
+
+
 <p align="center">
   <img src="assets/hero.svg" alt="Leakage-safe multi-task person attribute recognition" width="100%">
 </p>
